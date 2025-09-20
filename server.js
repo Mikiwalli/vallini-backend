@@ -19,6 +19,7 @@ app.use(
       'http://127.0.0.1:8000',
       'http://localhost:8080',
       'http://127.0.0.1:8080',
+      'https://vallini.eu'   // <— aggiunta per il tuo dominio
     ],
     credentials: false,
   })
@@ -581,3 +582,4 @@ app.listen(PORT, () => {
   console.log(`Health check:               http://localhost:${PORT}/health`);
   console.log(`Static files:               http://localhost:${PORT}/index.html`);
 });
+
